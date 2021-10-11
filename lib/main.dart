@@ -1,3 +1,4 @@
+import 'package:alamin/second_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -56,6 +57,10 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                RaisedButton(onPressed: (){
+                  Navigator.push(context, MaterialPageRoute
+                    (builder:(Context)=>SecondPage()));
+                }),
                 SizedBox(
                   height: 10,
                 ),
@@ -163,7 +168,437 @@ class _MyHomePageState extends State<MyHomePage> {
                       ],
                     ),
                   ),
-                )
+                ),
+                Visibility(
+                  visible: pictureVisibility ,
+                  child:
+                  SingleChildScrollView  (
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Visibility(
+                  visible: pictureVisibility ,
+                  child:
+                  SingleChildScrollView  (
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Visibility(
+                  visible: pictureVisibility ,
+                  child:
+                  SingleChildScrollView  (
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Visibility(
+                  visible: pictureVisibility ,
+                  child:
+                  SingleChildScrollView  (
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Visibility(
+                  visible: pictureVisibility ,
+                  child:
+                  SingleChildScrollView  (
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
