@@ -6,6 +6,9 @@ void main() {
 
 String btnText = "Click to Open Picture";
 bool pictureVisibility=false;
+String img1Src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg";
+double imgHeight=200;
+double imgWidg=200;
 
 
 Color btnClr1 = Colors.green;
@@ -36,13 +39,11 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          toolbarHeight: 100,
-          leadingWidth: 0.5,
-          toolbarOpacity: 0.5,
+
           centerTitle: true,
           backgroundColor: Colors.green,
           title: Text(
-            "Zakaria",
+            "Al Amin",
             style: TextStyle(fontSize: 40),
           ),
         ),
@@ -79,8 +80,89 @@ class _MyHomePageState extends State<MyHomePage> {
             height: 10,),
                 Visibility(
                    visible: pictureVisibility ,
-                  child: Image.network(
-                      "https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"),
+                  child:
+                  SingleChildScrollView  (
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(
+                                color: Colors.green,
+                                width: 5
+                              )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                                ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.green,
+                                    width: 5
+                                )
+                            ),
+                            height: 200,
+                            width: 300,
+                            child: Image.network(img1Src
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 )
               ],
             ),
