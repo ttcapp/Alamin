@@ -57,7 +57,9 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                RaisedButton(onPressed: (){
+                RaisedButton(
+                  child:  Text("Go to next page"),
+                    onPressed: (){
                   Navigator.push(context, MaterialPageRoute
                     (builder:(Context)=>SecondPage()));
                 }),
